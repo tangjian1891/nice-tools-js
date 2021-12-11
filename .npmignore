@@ -1,3 +1,5 @@
 .test
 jest.config.js
-src
+.vscode
+rollup.config.js
+tsconfig.json
