@@ -2,6 +2,7 @@ import resolve from "rollup-plugin-node-resolve"; //可引入包
 import commonjs from "rollup-plugin-commonjs"; //可解析es包
 import typescript from "@rollup/plugin-typescript";
 import pkg from "./package.json";
+console.log('查看当前的环境',process.env.NODE_ENV);
 export default {
   input: "src/index.ts", // 打包入口
   output: [
